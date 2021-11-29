@@ -85,4 +85,4 @@ fs.readdir("./slash/", (_err, files) => {
 
 
 // Login through the client
-client.login(config.token);
+client.login('process.env.TOKEN');

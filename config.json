@@ -1,6 +1,6 @@
 {
-  "token": "BotTokenHere", 
-  "prefix": "PrefixHere",
+  "token": process.env.TOKEN, 
+  "prefix": "!",
   "everyoneMention": false,
   "hostedBy": true
 }
